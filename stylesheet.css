@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'roboto';
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    margin-inline: 150px;
+}
+
+.dashboard-svg{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+.home-svg,
+.profile-svg,
+.messages-svg,
+.history-svg,
+.tasks-svg,
+.communities-svg,
+.settings-svg,
+.support-svg,
+.privacy-svg {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.sidebar{
+    background-color: #0ea5e9;
+    color: white;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+
+.dashboard,
+.home,
+.profile,
+.messages,
+.history,
+.tasks,
+.communities,
+.settings,
+.support,
+.privacy {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 20px;
+}
+
+.break{
+    margin: 0px;
+}
+
+.header{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.img{
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.greeting{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+
+.profile-greet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.mainContent {
+    background-color: #e5e7eb;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects-container {
+    grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 1fr 1fr 1fr;
+}
+
+.card{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 8px solid;
+    border-left-color: #fdba74;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.projects-container h4 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
